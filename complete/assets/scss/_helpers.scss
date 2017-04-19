@@ -1,0 +1,19 @@
+.frame {
+    display: block;
+    height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+#__bs_notify__ {
+    display: none !important;
+}
+
+p {
+    margin: 0;
+}

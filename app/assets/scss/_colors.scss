@@ -1,0 +1,44 @@
+$white: #ffffff;
+$black: #000000;
+
+$divider-dark-color: rgba(0,0,0,0.12);
+$divider-light-color: rgba(255,255,255,0.12);
+
+// font colors
+$body-font-color: rgba(0,0,0,0.87);
+$subfont-color: rgba(0,0,0,0.54);
+$icon-light-color: rgba(255,255,255,0.87);
+$icon-dark-color: rgba(0,0,0,0.54);
+
+// background palette
+$background-palette:
+    rgb(255, 255, 255)
+    rgb(250,250,250)
+    rgb(246, 246, 246)
+    rgb(224, 224, 224)
+    rgb(189, 189, 189)
+    rgb(173, 173, 173)
+    rgb(158, 158, 158)
+    rgb(143, 143, 143)
+    rgb(127, 127, 127)
+    rgb(112, 112, 112)
+    //rgb(97, 97, 97)
+    rgb(255, 255, 255)
+    rgb(252, 252, 252)
+    rgb(173, 173, 173)
+    rgb(127, 127, 127)
+;
+$background-palette-50: nth($background-palette, 1);
+$background-palette-100: nth($background-palette, 2);
+$background-palette-200: nth($background-palette, 3);
+$background-palette-300: nth($background-palette, 4);
+$background-palette-400: nth($background-palette, 5);
+$background-palette-500: nth($background-palette, 6);
+$background-palette-600: nth($background-palette, 7);
+$background-palette-700: nth($background-palette, 8);
+$background-palette-800: nth($background-palette, 9);
+$background-palette-900: nth($background-palette, 10);
+$background-palette-A100: nth($background-palette, 11);
+$background-palette-A200: nth($background-palette, 12);
+$background-palette-A400: nth($background-palette, 13);
+$background-palette-A700: nth($background-palette, 14);

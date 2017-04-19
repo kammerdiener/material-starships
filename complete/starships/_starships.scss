@@ -1,0 +1,58 @@
+.md-list-item-text {
+    h3, p {
+        text-transform: capitalize;
+    }
+}
+
+.metadata-2-line {
+    margin: 8px 0;
+    .md-body-1 {
+        text-transform: capitalize;
+    }
+    .md-caption {
+        color: $subfont-color;
+        font-weight: 500;
+    }
+}
+
+md-toolbar {
+    .md-fab {
+        position: absolute;
+        top: 50%;
+        right: 32px;
+    }
+    md-input-container {
+        label, input {
+            color: $white !important;
+            border-color: $white !important;
+        }
+        margin: 16px 0 0;
+        height: 34px;
+        .md-errors-spacer {
+            display: none;
+        }
+    }
+    .search-container {
+        max-width: calc(100% - 64px);
+    }
+}
+
+md-card {
+    md-card-title-media {
+        img {
+            border-radius: 50%;
+        }
+    }
+    md-card-content {
+        .md-subheader {
+            background-color: transparent;
+            .md-subheader-inner {
+                padding: 16px 0;
+            }
+        }
+    }
+}
+
+md-dialog-content {
+    padding: 32px 16px 16px;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "angular-material-starships",
+  "version": "0.1.0",
+  "authors": [
+    "Sven Cowart <svencowart@gmail.com>"
+  ],
+  "description": "Angular Material Starships",
+  "main": "index.html",
+  "license": "WTFPL",
+  "private": true,
+  "dependencies": {
+    "ne-swapi": "^0.1.4",
+    "identicon.js": "identicon#^2.1.0"
+  }
+}

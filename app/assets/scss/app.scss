@@ -1,0 +1,15 @@
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+// config
+@import 'colors';
+@import 'media-queries';
+@import 'mixins';
+
+// shared
+@import 'helpers';
+
+// components
+@import '../../starships/starships';

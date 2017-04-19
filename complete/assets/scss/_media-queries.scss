@@ -1,0 +1,78 @@
+// File: _media-queries.scss
+
+$mobile-width: 600px;
+$tablet-width: 960px;
+$laptop-width: 1280px;
+$desktop-width: 1920px;
+
+@mixin xs {
+    @media (max-width: #{$mobile-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin gt-xs {
+    @media (min-width: #{$mobile-width}) {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin gt-sm {
+    @media (min-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$laptop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin gt-md {
+    @media (min-width: #{$laptop-width}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: #{$laptop-width}) and (max-width: #{$desktop-width - 1px}) {
+        @content;
+    }
+}
+
+@mixin gt-lg {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: #{$desktop-width}) and (max-width: 100vw) {
+        @content;
+    }
+}
+
+@mixin gt-xl {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+@mixin retina {
+    @media
+        only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (min--moz-device-pixel-ratio: 2),
+        only screen and (-o-min-device-pixel-ratio: 2/1),
+        only screen and (min-device-pixel-ratio: 2),
+        only screen and (min-resolution: 192dpi),
+        only screen and (min-resolution: 2dppx) {
+        @content;
+    }
+}
